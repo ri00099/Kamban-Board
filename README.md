@@ -58,17 +58,23 @@ JWT_SECRET=f63c70f41823a30581d525ef336a8dc0
 Installation & Setup
 
 1. Clone Repository
-   git clone https://github.com/ri00099/Kamban-Board/
+  ```
+git clone https://github.com/ri00099/Kamban-Board/
    cd kanban-board
+```
 
 2. Setup Backend
+ ```
     cd backend
     npm install
     npm run dev
+```
 3. Setup Frontend
+   ```
    cd frontend
    npm install
    npm start
+   ```
 Important Note
 
 This project implements most of the required features at a basic level as per the assignment scope. With additional time, it can be enhanced into a production-grade application with improved UI, performance, and scalability.
